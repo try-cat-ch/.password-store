@@ -12,6 +12,8 @@ git clone https://github.com/try-cat-ch/.password-store.git
 
 gpg --import .password-store/private.key
 
+gpg --edit-key <KEY_ID>
+gpg> trust
 
 
 // commands
